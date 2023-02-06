@@ -307,54 +307,79 @@
 					</p>
 					
 				<p class="project"; id="Rope"> Rope </p> 
-				<p class="details" align="left"> A project Created in the Unreal 4 engine under the prompt “make a 3d platformer with all core gameplay coded yourself in C++ and use minimal blueprints”.
-				The game mechanics primarily revolves around the player being able to climb and swing on ropes. The rope itself consists of a base(a simple cylinder) that is used to connect the rope to surfaces. 
-				A physics contraint is attached to base(stationary) and a sphere(moveable with gravity enabled) to simulate a rope. The visual portion of the rope simply uses a cable component attached to the sphere and base.
-				To allow players more freedom there is a “rope gun” that raycasts to the first collision intersecting from where the player is facing. The player is given a dot that appears red if they can shoot the rope and is the surface
-				is out range and valid and appears green when the player can shoot the object is valid and in range. The rope base is then placed perpindicular to the surface to look as if it is sticking into it.
-				Gravity lets the rope down and after a couple seconds the player is free to swing or climb on the rope. The climbing simply uses the rope collider rotation and moves the player "up" or "down" based on said collider. 
-				The swinging adjusts the location of the sphere of the rope, however the player stays stationary left like this. Using trigonometry the player is set to flying and adjust to the correct 3D location every tick while on the rope.
-				The player is then able to jump or let go from the rope and continue normally(regular gravity/walking/jumping). Finally, the game includes a dash giving the player high speed speed for a split second and then restoring the player's original velocity. 
-				The current basic UI includes an indicator for when the player is able to grab the rope and when the player has switched between climbing and swinging mode.
-				Next for the game would be adding enemies likely based on a stealth component where the player must use the ropes to manuever around the enemies to reach the end of the level.
+					<p class="details" align="left"> A project Created in the Unreal 4 engine under the prompt “make a 3d platformer with all core gameplay coded yourself in C++ and use minimal blueprints”.
+					The game mechanics primarily revolves around the player being able to climb and swing on ropes. The rope itself consists of a base(a simple cylinder) that is used to connect the rope to surfaces. 
+					A physics contraint is attached to base(stationary) and a sphere(moveable with gravity enabled) to simulate a rope. The visual portion of the rope simply uses a cable component attached to the sphere and base.
+					To allow players more freedom there is a “rope gun” that raycasts to the first collision intersecting from where the player is facing. The player is given a dot that appears red if they can shoot the rope and is the surface
+					is out range and valid and appears green when the player can shoot the object is valid and in range. The rope base is then placed perpindicular to the surface to look as if it is sticking into it.
+					Gravity lets the rope down and after a couple seconds the player is free to swing or climb on the rope. The climbing simply uses the rope collider rotation and moves the player "up" or "down" based on said collider. 
+					The swinging adjusts the location of the sphere of the rope, however the player stays stationary left like this. Using trigonometry the player is set to flying and adjust to the correct 3D location every tick while on the rope.
+					The player is then able to jump or let go from the rope and continue normally(regular gravity/walking/jumping). Finally, the game includes a dash giving the player high speed speed for a split second and then restoring the player's original velocity. 
+					The current basic UI includes an indicator for when the player is able to grab the rope and when the player has switched between climbing and swinging mode.
+					Next for the game would be adding enemies likely based on a stealth component where the player must use the ropes to manuever around the enemies to reach the end of the level.
 
-				</p>
-				<p class="details">Project Link: <a href="https://github.com/noahchristensen/UnrealPlatformer2020" target="_blank"> 
-					https://github.com/noahchristensen/UnrealPlatformer2020 </a> </p>
-				<p class="details">Video Link: <a href="https://youtu.be/0tbk1sr6lvs" target="_blank"> 
-					https://youtu.be/0tbk1sr6lvs </a> </p>		
-				</p>
-				
-				</p>
-					<img src="rope-platformer-one.png" width = "385" id="rope-platformer-one">
-					<img src="rope-platformer-two.png" width = "385" id="rope-platformer-two">
-					<img src="rope-platformer-three.png" width = "385" id="rope-platformer-three">
-					<img src="rope-platformer-four.gif" width = "400" id="rope-plaformer-four">
-				</p>
+					</p>
+					<p class="details">Project Link: <a href="https://github.com/noahchristensen/UnrealPlatformer2020" target="_blank"> 
+						https://github.com/noahchristensen/UnrealPlatformer2020 </a> </p>
+					<p class="details">Video Link: <a href="https://youtu.be/0tbk1sr6lvs" target="_blank"> 
+						https://youtu.be/0tbk1sr6lvs </a> </p>		
+					</p>
+
+					</p>
+						<img src="rope-platformer-one.png" width = "385" id="rope-platformer-one">
+						<img src="rope-platformer-two.png" width = "385" id="rope-platformer-two">
+						<img src="rope-platformer-three.png" width = "385" id="rope-platformer-three">
+						<img src="rope-platformer-four.gif" width = "400" id="rope-plaformer-four">
+					</p>
 				<p class="project"; id="OYG"> ProjectOYG </p> 
-				<p class="details" align="left"> Another project created in Unreal Engine 4, but this time I wanted to go more in depth and create a real-time RPG styled game. The Project is a mix of both various Blueprints and C++. For the project I learned blender in order to model, texture, rig, and animate
-				my own assets. The project started with the modeling of a humanoid character called a goblin. Once I had the goblin made I dedicated a large portion after to work on the character functionality. The project intially used just the C++ 3rd person
-				template to move the goblin. The added features besides the default movement and jumping include: rolling, sprinting, and climbing(on specified surfaces). The HUD, done through blueprints/UMG, includes a stamina bars which was binded to the C++
-				functions  like sprinting, rolling, and later attacking. The game's combat works through coded hurtboxes interacting with the enemy or player hurtboxes. If an active hurtbox hits a proper actor it will deal damage and take of away the Hit Points
-				(HP) of that actor. AnimationBPs or AnimationMonatages are called upon the attack the show the visual component, similar to most of the game's code to animation communication. ProjectOYG also includes lock-on, where the player is able to set their 
-				camera to adjust so it looks at a specific enemy automatically. The player is able to unlock or switch targets at any point with the lock-on. Other player related functions are picking up items/equipment that can be equipped through an inventory specific
-				UI, and also healing items to get back HP that was lost. Some of the last included features are Save Points and Dialogue. The Save Points are at specific locations and if a player is next to them they may "rest" at them and if they die they will be respawned at
-				that save point. Dying and resting will cause the enemies to repawn throughout the map with some exceptions and will restore player HP, stamina, and healing items. Lastly, Dialogue for the time being is a fairly simple implementation of timed arrays showing on
-				the HUD as subtitles when the player interacts with a corresponding NPC.
+					<p class="details" align="left"> Another project created in Unreal Engine 4, but this time I wanted to go more in depth and create a real-time RPG styled game. The Project is a mix of both various Blueprints and C++. For the project I learned blender in order to model, texture, rig, and animate
+					my own assets. The project started with the modeling of a humanoid character called a goblin. Once I had the goblin made I dedicated a large portion after to work on the character functionality. The project intially used just the C++ 3rd person
+					template to move the goblin. The added features besides the default movement and jumping include: rolling, sprinting, and climbing(on specified surfaces). The HUD, done through blueprints/UMG, includes a stamina bars which was binded to the C++
+					functions  like sprinting, rolling, and later attacking. The game's combat works through coded hurtboxes interacting with the enemy or player hurtboxes. If an active hurtbox hits a proper actor it will deal damage and take of away the Hit Points
+					(HP) of that actor. AnimationBPs or AnimationMonatages are called upon the attack the show the visual component, similar to most of the game's code to animation communication. ProjectOYG also includes lock-on, where the player is able to set their 
+					camera to adjust so it looks at a specific enemy automatically. The player is able to unlock or switch targets at any point with the lock-on. Other player related functions are picking up items/equipment that can be equipped through an inventory specific
+					UI, and also healing items to get back HP that was lost. Some of the last included features are Save Points and Dialogue. The Save Points are at specific locations and if a player is next to them they may "rest" at them and if they die they will be respawned at
+					that save point. Dying and resting will cause the enemies to repawn throughout the map with some exceptions and will restore player HP, stamina, and healing items. Lastly, Dialogue for the time being is a fairly simple implementation of timed arrays showing on
+					the HUD as subtitles when the player interacts with a corresponding NPC.
 
-				</p>
-				<p class="details">Project Link: <a href="https://github.com/noahchristensen/UnrealProjectOYG" target="_blank"> 
-					https://github.com/noahchristensen/UnrealProjectOYG </a> </p>
-				<p class="details">Video Link: <a href="https://www.youtube.com/watch?v=9ZKiAFZQgTM" target="_blank"> 
-					https://www.youtube.com/watch?v=9ZKiAFZQgTM </a> </p>	
-				</p>
-				
-				</p>
-					<img src="oyg-one.png" width = "385" id="rope-platformer-one">
-					<img src="oyg-two.png" width = "385" id="rope-platformer-two">
-					<img src="oyg-three.png" width = "385" id="rope-platformer-three">
-					
-				</p>
+					</p>
+					<p class="details">Project Link: <a href="https://github.com/noahchristensen/UnrealProjectOYG" target="_blank"> 
+						https://github.com/noahchristensen/UnrealProjectOYG </a> </p>
+					<p class="details">Video Link: <a href="https://www.youtube.com/watch?v=9ZKiAFZQgTM" target="_blank"> 
+						https://www.youtube.com/watch?v=9ZKiAFZQgTM </a> </p>	
+					</p>
+
+					</p>
+						<img src="oyg-one.png" width = "385" id="rope-platformer-one">
+						<img src="oyg-two.png" width = "385" id="rope-platformer-two">
+						<img src="oyg-three.png" width = "385" id="rope-platformer-three">
+
+					</p>
+				<p class="project"; id="Binding of Soulslike"> ProjectOYG </p> 
+					<p class="details" align="left"> 
+						This project is a roguelike heavily based off the game 'The Binding of Issac'. I used a grid like format where each room which has to be within certain dimensions(5:3 - 10:6, 1:1 - 2:2).
+						There are three main actors that the level is based on. Firstly, the 'FloorGraph' executes the main code loop and is where things like: "how many rooms?" are decided. Next, 'FloorRoom'
+						is the main actor that Graph is made up of and is what the player traverses through. Rooms spawn enemies, spawn consumables, etc. The last actor is another object the room generates randomly, 
+						which is the 'FloorDoor'. Doors are what dictate additional room generation. When a Door is instantiated it has a chance to either be closed or open. If the door is open that means the door has no collision and should
+						spawn a new room relative to the door position. If the door is closed, the door does have collision and does not spawn any rooms. In summary, the process for level generation is the 'FloorGraph' spawns an intial room called the 'StartRoom', then the floor
+						graphs starts the loop of Rooms spawn Doors and then Doors Spawn Rooms. 
+						Currently this project is relatively new. The primary goal for this project was to refine some of the ideas in ProjectOYG in a fresher and hopefully more refined game. 
+						For example, when I initial started work on ProjectOYG I didn't know what AnimMontages or AnimNotifies were, whereas for this project I immediately used them to build out actions like attacks. 
+						I ultimately chose a roguelike because level design was one of my main roadblocks in continuing that ProjectOYG.
+						I still aim to implement much further for the player character. The goal would be to create multiple characters to choose from that all had their own unique mechanics.
+						Beyond that there is still much more variety and progression I'd to include.
+
+					</p>
+					<p class="details">Video Link: <a href="https://www.youtube.com/watch?v=9ZKiAFZQgTM" target="_blank"> 
+						https://www.youtube.com/watch?v=9ZKiAFZQgTM </a> </p>	
+					</p>
+
+					</p>
+						<img src="TopDown-one.png" width = "385" id="rope-platformer-one">
+						<img src="TopDownTwo-two.png" width = "385" id="rope-platformer-two">
+						<img src="TopDownThree-three.png" width = "385" id="rope-platformer-three">
+
+					</p>
 			<p class="heading"; id="Contact"> <ins> Contact </ins> </p>
 			<br />
 			<p class="details"> Email: nchri003@ucr.edu </p>
