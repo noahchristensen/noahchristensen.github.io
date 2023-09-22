@@ -1,394 +1,271 @@
-<html>
-	<head>
-		<title> Noah Christensen </title>
-		
-		<style type="text/css">
-			head{
-				margin:0;
-			}
-			
-			body{
-				margin:0;
-			}
-		
-			li{
-				float: left;
-				list-style: none;
-			}
-			
-			ul{
-				float: left;
-				font-size:12pt;
-				list-style: none;
-			}
-			
-			ul li a {
-				position:relative;
-				display: block;
-				font-family: Helvetica;
-			}
-			
-			#top{
-				position:relative;
-				margin:0;
-				padding: 35px 0px 20px 0px;
-				border-style: solid;
-				border-color:black;
-				border-width: 0px 0px 4px 0px;
-				background-color: #102D45;
-				color: white;
-				font-family: Segoe UI;
-				text-align:center;
-			}
-			
-			#sidebar{
-				position:fixed;
-				top: -15px;
-				width:125px;
-				margin: 0;
-				padding: 10px 10px 1000px 10px;
-				border-style: solid;
-				border-color:black black white white;
-				font-size:150%;
-				font-family: Helvetica;
-				text-align: left;
-				background-color: white;
-				z-index: 3;
-			}
-			
-			#sidebar a{
-				text-decoration:none;
-				color: black;
-				padding: 10px 20px 10px 0px;
-			}
-			
-			#sidebar a:hover{
-				background-color: #EAEAEA;
-			}
-			
-			#body-text{
-				position: relative;
-				width: 1200px;
-				text-align: left;
-				left: 200px;
-				z-index: 1;
-				word-wrap: break-word;
-			}
-			
-			.heading{
-				font-size: 200%;
-				font-style: underlined;
-				margin-top: 50px;
-				font-family: Calibri;
-			}
-			
-			.details{
-				font-size: 120%;
-				text-align:left;
-			}
-			
-			.project{
-				margin-top: 40px;
-				font-size: 130%;
-				font-weight: bold;
-			}
-			
-			#circle-picture{
-				position: absolute;
-				border-style:solid;
-				border-radius: 50%;
-				text-align:right;
-				left:1300px;
-				top:50px;
-			}
-			
-			#invaders-picture-one{
-				position: relative;
-				text-align:left;
-			}
-			
-			#invaders-picture-two{
-				position: relative;
-				text-align:left;
-			}
-			
-			#invaders-picture-three{
-				position: absolute;
-				top: 400px;
-				left: 1200px;
-				text-align:left;
-			}
-			
-			#invaders-picture-four{
-				position: relative;
-				text-align:left;
-			}
-			
-			#escape-picture-one{
-				position: relative;
-				text-align:left;
-			}
-			
-			#escape-picture-two{
-				position: relative;
-				text-align:left;
-			}
-			
-			#escape-picture-three{
-				position: relative;
-				text-align:left;
-			}
-			
-			#escape-picture-four{
-				position: absolute;
-				top: 875px;
-				left: 1250px;
-				text-align:left;
-			}
-			
-			#action-platformer-one{
-				position: relative;
-				text-align:left;
-			}
-			
-			#action-platformer-two{
-				position: relative;
-				text-align:left;
-			}
-			
-			#action-platformer-three{
-				position: relative;
-				text-align:left;
-			}
-			
-			#action-plaformer-four{
-				position: absolute;
-				top: 1350px;
-				left: 1250px;
-				text-align:left;
-			}
-			
-			#forest-run-one{
-				position: relative;
-				text-align:left;
-			}
-			
-			#forest-run-two{
-				position: relative;
-				text-align:left;
-			}
-			
-			#forest-run-three{
-				position: relative;
-				text-align:left;
-			}
-			
-			#forest-run-four{
-				position: absolute;
-				top: 1850px;
-				left: 1250px;
-				text-align:left;
-			}
-			
-			#rope-platformer-one{
-				position: relative;
-				text-align:left;
-			}
-			
-			#rope-platformer-two{
-				position: relative;
-				text-align:left;
-			}
-			
-			#rope-platformer-three{
-				position: relative;
-				text-align:left;
-			}
-			
-			#rope-plaformer-four{
-				position: absolute;
-				top: 2480px;
-				left: 1250px;
-				text-align:left;
-			}
-			
-		</style>
-	</head>
-	
-	<body>
-		<div id="top">
-			<h1> Noah Christensen </h1>
-		</div>
-		
-		<div id="sidebar">
-			<p> <a href="#About"> About </a> </p>
-			<p> <li> <a href="#Projects"> Projects </a> </p>
-					<ul>
-						<li> <a href="#Imbedded"> Imbedded Systems </a> </li>
-						<li> <a href="#Escape"> Basic Unreal </a> </li>
-						<li> <a href="#2D">  2D Unity </a> </li>
-						<li> <a href="#VR"> Virtual Reality </a> </li>
-						<li> <a href="#Rope"> Unreal C++ </a> </li>
-					</ul>
-				</li>
-			<p>	<a href="#Contact"> Contact </a> </p>
-		</div>
-		
-		<div id="body-text">
-			<p class="heading"; id="About"> <ins> About </ins> </p>
-				<p class="details"> Hello, my name is Noah Christensen. 
-				I graduated in 2020 as Computer Science major from University of California, Riverside. 
-				Currently, my knowledge most broadly covers the coding languages of C, C++, C#, Java. 
-				I have learned to use both the Unity and Unreal 4 game engines. Lastly, I learned HTML and CSS in order to make this website. 
-				I am interested in both frontend and backend development. I hope to advance in all programming aspects.
-				My passion in programming is most deep with the possible to create and build. 
-				</p>
-				<img src="pfp.png" width = "150" id="circle-picture">
-			
-			<p class="heading"; id="Projects"> <ins> Projects </ins> </p>
-				<p class="project"; id="Imbedded"> Imbedded Invaders </p> 
-					<p class="details">A game created for the UCR class Imbedded Systems using C. Based on the classic arcade game Space Invaders. 
-					I was able use to the pixel-based layout and state diagrams in order to make a working game on simple hardware (e.g. Microcontroller, Nokia Display, joysticks, pushbuttons, breadboard).</p>
-					<p class="details">Project Link: <a href="https://docs.google.com/document/d/1XsEwOXn_x7GUp7IglQ-ALVCeMHCyK4_8860pu110yVc/edit?usp=sharing" target="_blank"> 
-					https://docs.google.com/document/d/1XsEwOXn_x7GUp7IglQ-ALVCeMHCyK4_8860pu110yVc/edit?usp=sharing </a> </p>
-					</p>
-						<img src="space-invaders-four.png" width = "300" id="invaders-picture-four">
-						<img src="space-invaders.png" width = "300" id="invaders-picture-one">
-						<img src="space-invaders-two.png" width = "300" id="invaders-picture-two">
-						<img src="space-invaders-three.png" width = "300" id="invaders-picture-three">
-					</p>
+<!DOCTYPE html>
 
-				<p class="project"; id="Escape"> Room Escape in Unreal </p> 
-					<p class="details" align="left"> A very simple game made in Unreal Engine 4 done in the Udemy course: Unreal Engine C++ Developer. 
-					The player begins in a room and must escape. The mechanics are basic movement and the ability to pick up objects.
-					To escape the room the player must place objects of enough weight onto a trigger volume. This will allow the player to escape through the door that would otherwise be closed.
-					Only two scripts were used. One to rotate the door open and closed when enough weight was on the pressure plate. Another script to grab and release objects with physics.
-					</p>
-					</p>
-						<img src="room-escape-one.png" width = "385" id="escape-picture-one">
-						<img src="room-escape-two.png" width = "385" id="escape-picture-two">
-						<img src="room-escape-three.png" width = "385" id="escape-picture-three">
-						<img src="room-escape-four.gif" width = "400" id="escape-picture-four">
-					</p>
-					
-				<p class="project"; id="2D"> Suit Slayer </p> 
-					<p class="details" align="left"> A 2D pixel-based platformer made in Unity.  The player controls a person in a brown trench coat equipped with a gun and a sword. 
-					The player can use the gun and sword in both the air and ground with each having a different animation. The weapons are used to defeat various enemies. 
-					The enemies currently include a stationary gun-man, a walking knife-man, and a drone that drops bombs that explode on the ground. 
-					I made extensive use of prefabs to create multiple enemies and produce effects and bullets when necessary.
-					Using the 2D physics component of Unity, I have also managed to control many clashing aspects of the game. 
-					The final version of the game will likely be set in a city and the player will go from rooftop to rooftop fighting different enemies to traverse until the end.
-					</p>
-					<p class="details">Video Link: <a href="https://youtu.be/OxlEdMCVCOs" target="_blank"> 
-					https://youtu.be/OxlEdMCVCOs </a> </p>	
+<!---------------Home---------------------->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noah Christensen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+			<nav>
+				<img src="Images/Noah.png" class="logo" />
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+				</ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+            <div class="header-text">
+                <p>Software Programmer</p>
+                <h1> Hello, I'm <span>Noah</span> Christensen </h1>
+            </div>
 
-					</p>
-						<img src="action-platformer-one.png" width = "385" id="action-platformer-one">
-						<img src="action-platformer-two.png" width = "385" id="action-platformer-two">
-						<img src="action-platformer-three.png" width = "385" id="action-platformer-three">
-						<img src="action-platformer-four.gif" width = "400" id="action-plaformer-four">
-					</p>
-					
-				<p class="project"; id="VR"> Forest Run </p> 
-					<p class="details" align="left"> A Virtual Reality game created in a team of three for the UCR Virtual Reality Class. 
-					The game is based around games like Temple Run(continuous running games) and has the player running at a linear velocity until they encounter an obstacle or reach the end/goal.
-					The player can move their entire body left and right(immmediate linear velocity) using an analog stick provided with the controller(tested with the Oculus Rift controller) or the WASD keys. 
-					The player is then also forced into scenarios where they cannot move their body any further to the right or left, but there are flying objects coming toward them(birds). At
-					this point the player can use the Virtual Reality headset to adjust their head collider position to dodge. We were able to use the Unity provided terrain assets and nature pack to create 
-					two forest settings(one in the day, one in the evening with a flashlight). We primarily used world space menus for the user UI and interfacing based on VR guidelines. Lastly, we gave the game running sounds,
-					bird chirps, and bear attached behind the player to get a better feel for the setting.
-					</p>				
+        </div>
+    </div>
 
-					</p>
-						<img src="forest-run-one.png" width = "385" id="forest-run-one">
-						<img src="forest-run-two.png" width = "385" id="forest-run-two">
-						<img src="forest-run-three.png" width = "385" id="forest-run-three">
-						<img src="forest-run-four.gif" width = "400" id="forest-run-four">
-					</p>
-					
-				<p class="project"; id="Rope"> Rope </p> 
-					<p class="details" align="left"> A project Created in the Unreal 4 engine under the prompt “make a 3d platformer with all core gameplay coded yourself in C++ and use minimal blueprints”.
-					The game mechanics primarily revolves around the player being able to climb and swing on ropes. The rope itself consists of a base(a simple cylinder) that is used to connect the rope to surfaces. 
-					A physics contraint is attached to base(stationary) and a sphere(moveable with gravity enabled) to simulate a rope. The visual portion of the rope simply uses a cable component attached to the sphere and base.
-					To allow players more freedom there is a “rope gun” that raycasts to the first collision intersecting from where the player is facing. The player is given a dot that appears red if they can shoot the rope and is the surface
-					is out range and valid and appears green when the player can shoot the object is valid and in range. The rope base is then placed perpindicular to the surface to look as if it is sticking into it.
-					Gravity lets the rope down and after a couple seconds the player is free to swing or climb on the rope. The climbing simply uses the rope collider rotation and moves the player "up" or "down" based on said collider. 
-					The swinging adjusts the location of the sphere of the rope, however the player stays stationary left like this. Using trigonometry the player is set to flying and adjust to the correct 3D location every tick while on the rope.
-					The player is then able to jump or let go from the rope and continue normally(regular gravity/walking/jumping). Finally, the game includes a dash giving the player high speed speed for a split second and then restoring the player's original velocity. 
-					The current basic UI includes an indicator for when the player is able to grab the rope and when the player has switched between climbing and swinging mode.
-					Next for the game would be adding enemies likely based on a stealth component where the player must use the ropes to manuever around the enemies to reach the end of the level.
+    <!--------------About----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Hawaii.jpg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p class="sub-paragraph">
+                        I graduated in 2020 as a Computer Science major
+                        from University of California, Riverside. Currently, my knowledge most broadly covers
+                        the coding languages of C, C++, C#, and Java. I have learned to use both the Unity and Unreal
+                        4 game engines in order to create various personal projects. On my journey, I've also picked up 3D modeling, 
+                        Virtual Reality Development, and even some OpenGL. To create this website, I used both HTML and CSS.
+                        On that note, I hope to advance in all programming aspects, even beyond the languages that I mentioned. My passion
+                        in programming is creating and innovating. Feel free to contact me if you have any questions or just want to talk.
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Software Engineering</span><br />Developing Desktop Apps</li>
+                                <li><span>Game Engines</span><br />Creating Independent Games</li>
+                                <li><span>3D Modeling</span><br />Using Blender to Create Weapons, Characters, and Environments</li>
+                                <li><span>Graphics APIs</span><br />Working with OpenGL</li>
+                                <li><span>Web Development</span><br />Developing Personal Websites</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016-2020</span><br />Bachelor's in Computer Science at UCR</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-					</p>
-					<p class="details">Project Link: <a href="https://github.com/noahchristensen/UnrealPlatformer2020" target="_blank"> 
-						https://github.com/noahchristensen/UnrealPlatformer2020 </a> </p>
-					<p class="details">Video Link: <a href="https://youtu.be/0tbk1sr6lvs" target="_blank"> 
-						https://youtu.be/0tbk1sr6lvs </a> </p>		
-					</p>
+    <!--------------Portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Embedded-Systems/space-invaders.png" />
+                    <div class="layer">
+                        <h3>Embedded Systems Game</h3>
+                        <p>
+                            Game heavily influenced by the iconic Space Invaders. Made with a microcontroller and visualized
+                            on a nokia display using the C programming language.
+                        </p>
+                        <a href="https://docs.google.com/document/d/1XsEwOXn_x7GUp7IglQ-ALVCeMHCyK4_8860pu110yVc/edit" class="idk"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="ExtraImg">
+                    <img src="Images/Background/Pixels.png" />
+                </div>
+                <div class="work">
+                    <img src="Images/2D-Platformer/action-platformer-two.png" />
+                    <div class="layer">
+                        <h3>2D Action Platformer</h3>
+                        <p>
+                            A 2D pixel-based platformer made in Unity. Fight to the end of the level with a gun, sword,
+                            and your movement skill.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=OxlEdMCVCOs"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/VR/forest-run-four.gif" />
+                    <div class="layer">
+                        <h3>VR Runner</h3>
+                        <p>
+                            Runner type game(eg. Temple Run) made for a Virtual Reality course at UCR.
+                            This game was made with a team of three culminating the knowledge we learned over the course.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=tQOgKq4FAXQ"><i class="fa-brands fa-youtube"></i> </a>
+                    </div>
+                </div>
+                <div class="ExtraImg">
+                    <img src="Images/Background/Headset.png" />
+                </div>
+                <div class="work">
+                    <img src="Images/3D-Platformer/rope-platformer-four.gif" />
+                    <div class="layer">
+                        <h3>Unreal 3D Platformer</h3>
+                        <p>
+                            Crafted to start learning Unreal, this project was inspired by a game with a mechanic that allowed you place and climb ropes.
+                            This project forced me to be creative and use much more math than I had in past, and even still there was a lot I could've done better.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=0tbk1sr6lvs"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://github.com/noahchristensen/UnrealPlatformer2020"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Souls-like/oyg-two.png" />
+                    <div class="layer">
+                        <h3>Realtime RPG</h3>
+                        <p>
+                            With Unreal Engine 4, this game was made to replicate certain aspects of Dark Souls and its unforgiving combat.
+                            Additionally, the first game to be brought to life by my own unique models made in Blender.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=9ZKiAFZQgTM"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://github.com/noahchristensen/UnrealProjectOYG"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="ExtraImg">
+                    <img src="Images/Background/GreatSword_IMG.png" />
+                </div>
+                <div class="work">
+                    <img src="Images/Top-Down/TopDown-one.png" />
+                    <div class="layer">
+                        <h3>Top-Down Rogue-like</h3>
+                        <p>
+                            This game was both inspired by my own previous RPG project and roguelikes like The Binding of Issac.
+                            The game featured a randomly generated floor consisting of rooms containing random enemies and power ups.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=ZHN2LjjQykU"><i class="fa-brands fa-youtube"></i> </a>
+                    </div>
+                </div>
+            </div>
 
-					</p>
-						<img src="rope-platformer-one.png" width = "385" id="rope-platformer-one">
-						<img src="rope-platformer-two.png" width = "385" id="rope-platformer-two">
-						<img src="rope-platformer-three.png" width = "385" id="rope-platformer-three">
-						<img src="rope-platformer-four.gif" width = "400" id="rope-plaformer-four">
-					</p>
-				<p class="project"; id="OYG"> ProjectOYG </p> 
-					<p class="details" align="left"> Another project created in Unreal Engine 4, but this time I wanted to go more in depth and create a real-time RPG styled game. The Project is a mix of both various Blueprints and C++. For the project I learned blender in order to model, texture, rig, and animate
-					my own assets. The project started with the modeling of a humanoid character called a goblin. Once I had the goblin made I dedicated a large portion after to work on the character functionality. The project intially used just the C++ 3rd person
-					template to move the goblin. The added features besides the default movement and jumping include: rolling, sprinting, and climbing(on specified surfaces). The HUD, done through blueprints/UMG, includes a stamina bars which was binded to the C++
-					functions  like sprinting, rolling, and later attacking. The game's combat works through coded hurtboxes interacting with the enemy or player hurtboxes. If an active hurtbox hits a proper actor it will deal damage and take of away the Hit Points
-					(HP) of that actor. AnimationBPs or AnimationMonatages are called upon the attack the show the visual component, similar to most of the game's code to animation communication. ProjectOYG also includes lock-on, where the player is able to set their 
-					camera to adjust so it looks at a specific enemy automatically. The player is able to unlock or switch targets at any point with the lock-on. Other player related functions are picking up items/equipment that can be equipped through an inventory specific
-					UI, and also healing items to get back HP that was lost. Some of the last included features are Save Points and Dialogue. The Save Points are at specific locations and if a player is next to them they may "rest" at them and if they die they will be respawned at
-					that save point. Dying and resting will cause the enemies to repawn throughout the map with some exceptions and will restore player HP, stamina, and healing items. Lastly, Dialogue for the time being is a fairly simple implementation of timed arrays showing on
-					the HUD as subtitles when the player interacts with a corresponding NPC.
+        </div>
+    <div class="container">
+            <h1 class="sub-title"> Ongoing Projects </h1>
+            <img src="Images/Fighting/fireball.png" class="right-image" />
+            <img src="Images/Fighting/shoryu.png" class="left-image" />
+            <div class="work ongoing">
+                <img src="Images/Fighting/main.png"/>
+                <div class="layer">
+                    <h3> Anime Fighting Game </h3>
+                    <p> Influenced by Anime-Styled fighting games like Guilty Gear, Blazblue, and Melty Blood. In it's current state,
+                    the game has a multitude of movement options like double-jumping, air-dashing, running, and crouching. I was even 
+                    able to successfully implement both an input buffer and command reader. A command reader allows for things like quarter
+                    circle motions resulting in special moves like a fireball.<br><br />
+                    The game still needs a lot more testing. I've initial implemented Hitstun and Hitstop using time dialation, but in a fighting
+                    game I need specific notions of frames rather than more or less arbitrary changes to the time dilation. I'd love to also start
+                    modeling some up to four or so unique characters designs and actually developing their movesets before I move on.</p>
+                </div>
+            </div>
+            <img src="Images/Background/zombie2.png" class="right-image" />
+            <img src="Images/Background/pitchfork.png" class="left-image" />
+            <div class="work ongoing">
+                <img src="Images/Zombies/Start.png"/>
+                <div class="layer">
+                    <h3> First Person Zombie Survival</h3>
+                    <p> I made this game with two goals in mind: to have a working online system so the game is playable with friends, and 
+                    to get the game downloadable from steam. The game so far is not much different than Call of Duty - Zombies, with the twist being instead
+                    of guns the player must use medieval themed weapons. I've shaped out both the primary game mechanics and a preliminary online system 
+                    built around those mechanics using Unreal Engine's networking. I've also created lobbies that work through Steam. 
+                    <br><br />
+                    Now, I have testing to make sure the online replication is working properly. Once I know the online works around the base of the game, I'll 
+                    make sure to add mechanics to polish the game feel. Lastly, The picture shown is of a map I've adapted from Unreal Marketplace to work for the game.</p>
+                </div>
+            </div>
+    </div>
+    <!----------------------Contact-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> ChristensenRNoah@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> (661)244-7912</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/noah-christensen/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Resume_2023.pdf" download class="btn">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
-					</p>
-					<p class="details">Project Link: <a href="https://github.com/noahchristensen/UnrealProjectOYG" target="_blank"> 
-						https://github.com/noahchristensen/UnrealProjectOYG </a> </p>
-					<p class="details">Video Link: <a href="https://www.youtube.com/watch?v=9ZKiAFZQgTM" target="_blank"> 
-						https://www.youtube.com/watch?v=9ZKiAFZQgTM </a> </p>	
-					</p>
+    <script>
 
-					</p>
-						<img src="oyg-one.png" width = "385" id="rope-platformer-one">
-						<img src="oyg-two.png" width = "385" id="rope-platformer-two">
-						<img src="oyg-three.png" width = "385" id="rope-platformer-three">
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-					</p>
-				<p class="project"; id="TopDown"> Binding Of Soulslike </p> 
-					<p class="details" align="left"> 
-						This project is a roguelike heavily based off the game 'The Binding of Issac'. I used a grid like format where each room which has to be within certain dimensions(5:3 - 10:6, 1:1 - 2:2).
-						There are three main actors that the level is based on. Firstly, the 'FloorGraph' executes the main code loop and is where things like: "how many rooms?" are decided. Next, 'FloorRoom'
-						is the main actor that Graph is made up of and is what the player traverses through. Rooms spawn enemies, spawn consumables, etc. The last actor is another object the room generates randomly, 
-						which is the 'FloorDoor'. Doors are what dictate additional room generation. When a Door is instantiated it has a chance to either be closed or open. If the door is open that means the door has no collision and should
-						spawn a new room relative to the door position. If the door is closed, the door does have collision and does not spawn any rooms. In summary, the process for level generation is the 'FloorGraph' spawns an intial room called the 'StartRoom', then the floor
-						graphs starts the loop of Rooms spawn Doors and then Doors Spawn Rooms. 
-						Currently this project is relatively new. The primary goal for this project was to refine some of the ideas in ProjectOYG in a fresher and hopefully more refined game. 
-						For example, when I initial started work on ProjectOYG I didn't know what AnimMontages or AnimNotifies were, whereas for this project I immediately used them to build out actions like attacks. 
-						I ultimately chose a roguelike because level design was one of my main roadblocks in continuing that ProjectOYG.
-						I still aim to implement much further for the player character. The goal would be to create multiple characters to choose from that all had their own unique mechanics.
-						Beyond that there is still much more variety and progression I'd to include.
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
 
-					</p>
-					<p class="details">Video Link: <a href="https://www.youtube.com/watch?v=ZHN2LjjQykU" target="_blank"> 
-						https://www.youtube.com/watch?v=ZHN2LjjQykU </a> </p>	
-					</p>
+    </script>
 
-					</p>
-						<img src="TopDown-one.png" width = "385" id="rope-platformer-one">
-						<img src="TopDown-two.png" width = "385" id="rope-platformer-two">
-						<img src="TopDown-three.png" width = "385" id="rope-platformer-three">
-						<img src="TopDown-four.png" width = "385" id="rope-platformer-four">
+    <script>
 
-					</p>
-			<p class="heading"; id="Contact"> <ins> Contact </ins> </p>
-			<br />
-			<p class="details"> Email: nchri003@ucr.edu </p>
-			<br />
-			<p class="details"> Cell: (661) 244-7912 </p>
-			<br />
-			<p class="details"> LinkedIn: <a href="https://www.linkedin.com/in/noah-christensen/"  target="_blank"> noah-christensen </a> </p>
-			<br />
-		</div>
-	</body>
-<html>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+		function closemenu() {
+			sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbwWzT30S0jxZpmgvOdOHAIYFdUlQVsBXdEyD2vk8WXAXvrLTLkf6gxVgJWvEWaINlVb/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+</html>
